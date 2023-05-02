@@ -1,0 +1,143 @@
+.dark_theme {
+  --bg-color-primary: #20222f;
+  --bg-color-secondary: #1d1f29;
+
+  --card-color: #252b42;
+  --card-hover-color: #333A55;
+
+  --up-color: #1eb589;
+  --down-color: #dc414c;
+
+  --blue-border: #1da1f2;
+  --red-border: #c4032b;
+  --colorful-border-1: #e94896;
+  --colorful-border-2: #ee877e;
+  --colorful-border-3: #fdc366;
+
+  --theme-cursor-color: #20222f;
+  --theme-colorful-1: #40db82;
+  --theme-colorful-2: #388fc9;
+  --theme-checked-color: #979797;
+  --theme-checked-color-2: #f1f3fa;
+
+  --font-color-primary: #ffffff;
+  --font-color-2: #8c98c6;
+}
+
+.light_theme {
+  --bg-color-primary: #ffffff;
+  --bg-color-secondary: #ffffff;
+
+  --card-color: #f1f3fa;
+  --card-hover-color: #E1E4F0;
+
+  --up-color: #1eb589;
+  --down-color: #dc414c;
+
+  --blue-border: #1da1f2;
+  --red-border: #c4032b;
+  --colorful-border-1: #e94896;
+  --colorful-border-2: #ee877e;
+  --colorful-border-3: #fdc366;
+
+  --theme-cursor-color: #20222f;
+  --theme-colorful-1: #40db82;
+  --theme-colorful-2: #388fc9;
+  --theme-checked-color: #979797;
+  --theme-checked-color-2: #f1f3fa;
+
+  --font-color-primary: #000000;
+  --font-color-2: #63687D;
+}
+
+.dashboard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 21vw;
+  background-color: var(--bg-color-primary);
+  z-index: -1;
+}
+
+.dashboard::after {
+  content: "";
+  position: absolute;
+  top: 21vw;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color-secondary);
+  z-index: -2;
+}
+
+.dashboard {
+  color: var(--font-color-primary);
+  padding: 2.8rem 1.5rem;
+  background-color: var(--bg-color-secondary);
+  height: 100%;
+}
+
+.dashboard_content {
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+.overview {
+  margin: 2.8rem 0 1.7rem;
+  font-size: 1.5rem;
+}
+
+.minor_content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
+  .major_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .dashboard_content {
+    max-width: 40rem;
+  }
+
+  .minor_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+
+  .dashboard {
+    max-width: 100vw;
+  }
+
+  .dashboard_content {
+    max-width: 60rem;
+  }
+
+  .major_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .minor_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+}

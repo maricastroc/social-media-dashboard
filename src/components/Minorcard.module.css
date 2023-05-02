@@ -1,0 +1,88 @@
+.minorcard {
+    cursor: pointer;
+    background-color: var(--card-color);
+    border-radius: 8px;
+    padding: 1.7rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 300ms;
+}
+
+.minorcard:hover {
+  background-color: var(--card-hover-color);
+}
+
+.minorcard + .minorcard {
+    margin-top: 1rem;
+}
+
+.likesNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.likes_number h2 {
+    font-size: 0.875rem;
+    color: var(--font-color-2);
+}
+
+.likes_number h1 {
+    margin-top: 1.45rem;
+    font-size: 2rem;
+    color: var(--font-color-primary);
+}
+
+.social_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social_data img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.up,
+.down {
+    display: flex;
+    align-items: center;
+}
+
+.up img {
+    margin-right: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    width: 0.5rem;
+    height: auto;
+}
+
+.up span {
+    color: var(--up-color);
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.down > img {
+    margin-right: 0.25rem;
+    transform: rotate(180deg);
+    filter: invert(202%) sepia(0%) saturate(134%)
+        hue-rotate(390deg) brightness(80%) contrast(120%);
+    width: 0.5rem;
+    height: auto;
+}
+
+.down span {
+    color: var(--down-color);
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .minorcard + .minorcard {
+        margin-top: 0;
+    }
+}
