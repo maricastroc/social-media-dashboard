@@ -3,7 +3,7 @@ A simple Social Media Dashboard built with ReactJS
 
 <br/>
 <h2>:books: Project Description</h2>
-<p>This is a solution to the challenge <a href=https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank">Social media dashboard with theme switcher</a>.
+<p>This is a solution to the challenge <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank">Social media dashboard with theme switcher</a>.
 
  <p>With this application, users are be able to:
    <li>View the optimal layout for the app depending on their device's screen size</li>
