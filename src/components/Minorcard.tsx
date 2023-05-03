@@ -18,7 +18,7 @@ export function Minorcard(props: MinorcardProps) {
       <div className={styles.social_data}>
         <img src={props.src} alt="Logo Social Media"></img>
         <div className={props.up ? styles.up : styles.down}>
-          <img src="./src/images/icon-up.svg" alt="Followers Data" />
+          <img src="./images/icon-up.svg" alt="Followers Data" />
           <span>{props.data}</span>
         </div>
       </div>

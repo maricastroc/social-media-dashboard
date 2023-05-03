@@ -24,7 +24,7 @@ export function Majorcard(props: MajorcardProps) {
         <p>{props.follow_type}</p>
       </main>
       <footer className={props.up ? styles.up : styles.down}>
-        <img src="./src/images/icon-up.svg" alt="Followers Data" />
+        <img src="./images/icon-up.svg" alt="Followers Data" />
         <span>{props.data} Today</span>
       </footer>
     </div>
