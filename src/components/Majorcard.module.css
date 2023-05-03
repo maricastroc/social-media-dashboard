@@ -46,30 +46,30 @@
     margin-top: 1.5rem;
 }
 
-.majorcard header {
+.username_section {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.majorcard > header p {
+.username_section p {
     color: var(---font-color-2);
     font-size: 0.75rem;
     font-weight: bold;
 }
 
-.majorcard > header img {
+.username_section img {
     height: 1.25rem;
     width: 1.25rem;
 }
 
-.majorcard > main h1 {
+.followers_section h1 {
     font-size: 3.5rem;
     text-align: center;
     font-weight: bold;
 }
 
-.majorcard > main p {
+.followers_section p {
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
@@ -78,7 +78,7 @@
     color: var(---font-color-2);
 }
 
-footer {
+.up, .down {
     display: flex;
     align-items: center;
 }
