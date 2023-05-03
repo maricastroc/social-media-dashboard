@@ -9,7 +9,7 @@ export function Theme(props: ThemeProps) {
     <div className={styles.theme}>
       <p>Dark Mode</p>
       <label className={styles.switch}>
-        <input type="checkbox"></input>
+        <input aria-label="switch_theme" type="checkbox"></input>
         <span className={styles.slider} onClick={props.onClick}></span>
       </label>
     </div>

@@ -132,7 +132,7 @@ export function App() {
       <div className={styles.dashboard}>
         <div className={styles.dashboard_content}>
           <Header onChange={handleSetTheme} />
-          <main>
+          <div>
             <div className={styles.major_content}>
               {majorcards.map((card) => {
                 return (
@@ -165,7 +165,7 @@ export function App() {
                 )
               })}
             </div>
-          </main>
+          </div>
         </div>
       </div>
     </div>
