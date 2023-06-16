@@ -23,6 +23,8 @@ In this project, I was able to work with states, lists and properties. In additi
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
+- [styled-components](https://styled-components.com/)
+- [Prettier](https://prettier.io/)
 
 ## ℹ️ How to run the application?
 
