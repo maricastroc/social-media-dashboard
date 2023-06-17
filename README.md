@@ -31,7 +31,7 @@ In this project, I was able to work with states, lists and properties. In additi
 > Clone the repository:
 
 ```bash
-git clone https://github.com/maricastroc/github-blog
+git clone https://github.com/maricastroc/social-media-dashboard
 ```
 
 > Install the dependencies:
